@@ -17,7 +17,7 @@ import {
 const App = () => {
 
   const buttonPressed = (msg) => {
-    alert(msg);
+    alert("Message: " + msg);
   }
 
   return (
